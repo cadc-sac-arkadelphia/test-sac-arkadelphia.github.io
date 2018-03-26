@@ -1,0 +1,98 @@
+/*------------------------------------*\
+  #CUSTOM PROPERTIES SECTION
+\*------------------------------------*/
+
+:root {
+  --primary-color: #ffb300;
+  --primary-text: black;
+  --p-light-color: #ffe54c;
+  --p-light-text: black;
+  --p-dark-color: #c68400;
+  --p-dark-text: white;
+  --secondary-color: #b71c1c;
+  --secondary-text: black;
+  --s-light-color: #f05545;
+  --s-light-text: black;
+  --s-dark-color: #7f0000;
+  --s-dark-text: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-gap: 1em;
+}
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+@media all and (max-width: 700px) {
+  aside,
+  article {
+    grid-column: 1 / 4;
+  }
+}
+
+/* Demo Specific Styles */
+body {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+}
+
+header,
+aside,
+article,
+footer {
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+}
+
+.sidebar-right a:link,a:visited {
+   color: var(--p-dark-text);
+   background-color: var(--p-dark-color);
+   text-decoration: none;
+   target-new: tab;
+  }
+.sidebar-right a:hover {
+   color: var(--p-light-text);
+   background-color: var(--p-light-color);
+   text-decoration: underline;
+   target-new: tab;
+  }
+
+.enjoy-css {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0 20px;
+  border: none;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  font: normal normal bold 20px/40px "Baumans", Helvetica, sans-serif;
+  color: black;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #ffe54c;
+  -webkit-box-shadow: 0 1px 0 0 rgb(119,119,119) , 0 2px 0 0 rgb(119,119,119) , 0 3px 0 0 rgb(119,119,119) , 0 4px 0 0 rgb(119,119,119) , 0 5px 0 0 rgb(119,119,119) , 0 6px 0 0 rgb(119,119,119) , 0 0 5px 0 rgba(0,0,0,0.0980392) , 0 1px 3px 0 rgba(0,0,0,0.298039) , 0 3px 5px 0 rgba(0,0,0,0.2) , 0 5px 10px 0 rgba(0,0,0,0.247059) , 0 10px 10px 0 rgba(0,0,0,0.2) , 0 20px 20px 0 rgba(0,0,0,0.14902) ;
+  box-shadow: 0 1px 0 0 rgb(119,119,119) , 0 2px 0 0 rgb(119,119,119) , 0 3px 0 0 rgb(119,119,119) , 0 4px 0 0 rgb(119,119,119) , 0 5px 0 0 rgb(119,119,119) , 0 6px 0 0 rgb(119,119,119) , 0 0 5px 0 rgba(0,0,0,0.0980392) , 0 1px 3px 0 rgba(0,0,0,0.298039) , 0 3px 5px 0 rgba(0,0,0,0.2) , 0 5px 10px 0 rgba(0,0,0,0.247059) , 0 10px 10px 0 rgba(0,0,0,0.2) , 0 20px 20px 0 rgba(0,0,0,0.14902) ;
+  text-shadow: 0 1px 0 #FFFFFF ;
+}
+
+.enjoy-css:hover {
+}
+
+.enjoy-css:active {
+  margin: 6px 0 0;
+  -webkit-box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.247059) , 0 4px 10px 0 rgba(0,0,0,0.2) , 0 14px 20px 0 rgba(0,0,0,0.14902) ;
+  box-shadow: 0 -1px 10px 0 rgba(0,0,0,0.247059) , 0 4px 10px 0 rgba(0,0,0,0.2) , 0 14px 20px 0 rgba(0,0,0,0.14902) ;
+}
+
+.enjoy-css:focus {
+}
