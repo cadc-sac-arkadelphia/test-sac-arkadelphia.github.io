@@ -1,0 +1,14 @@
+---
+---
+
+// change the theme's Sass variables
+
+@import "{{ site.theme }}";
+
+// custom Sass
+header {
+  background-image: url(/assets/images/favicon/favicon-128.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+}
