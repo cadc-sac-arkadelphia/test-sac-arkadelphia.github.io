@@ -1,8 +1,11 @@
----
----
+--- ---
+/*
+  by David Skinner of Davsk℠
+  for CADC Arkadelphia Senior Center
+  on May 19 2018
+*/
 
 // change the theme's Sass variables
-
 @import "{{ site.theme }}";
 
 // custom Sass
@@ -11,4 +14,5 @@ header {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: 100px 100px;
+  background-origin: padding-box;
 }
