@@ -3,11 +3,9 @@
 
 ## Specifications 
 
-CADC Arkadelphia Senior Activity Center
-
-1305 N 10th St
-
-Arkadelphia, AR 71923
+    CADC Arkadelphia Senior Activity Center
+    1305 N 10th St
+    Arkadelphia, AR 71923
 
 ## Contact:
 
@@ -15,11 +13,9 @@ E-Mail: skinner.david@gmail.com
 
 ## Responsible for the content 
 
-CADC Arkadelphia Senior Activity Center
-
-1305 N 10th St
-
-Arkadelphia, AR 71923
+    CADC Arkadelphia Senior Activity Center
+    1305 N 10th St
+    Arkadelphia, AR 71923
 
 ## Liability for Content
 
