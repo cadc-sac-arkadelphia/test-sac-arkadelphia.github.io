@@ -2,8 +2,8 @@
 
 ## Main Menu
 * ### [Posts](Posts.html)
+* ### [Contact](http://cadc.com/clark)
 * ### [Events](Events.html)
-* ### [Map](Map.html)
 * ### [Meals](Meals.html)
 * ### [About](About.html)
 
