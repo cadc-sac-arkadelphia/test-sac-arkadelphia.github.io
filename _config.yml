@@ -1,7 +1,3 @@
-theme: jekyll-theme-leap-day
-title: CADC Arkadelphia Senior Activity Center
-description: Building Futures Though Community Actions
-show_downloads: false
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -15,7 +11,7 @@ show_downloads: false
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "davsk/minimal-mistakes"
+remote_theme           : "davsk/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
